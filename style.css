@@ -62,8 +62,9 @@ p>a:link,p>a:visited,p>a:hover,p>a:active {
 .products{
     font-family: anton;
     position: absolute;
-    line-height: 1.3;
+    line-height: 1.1;
     color: rgb(81, 81, 153);
+   
 }
 #prod1,#prod2{
 text-transform: uppercase;
@@ -73,11 +74,11 @@ font-size: 1.5rem;
 }
 #products1{
     top: 56vh;
-    left: 24%;
+    left: 23%;
 }
 #products2{
     top: 56vh;
-    left: 67.8%;
+    left: 68.5%;
 }
 .footer-links{
     position: absolute;
@@ -90,7 +91,7 @@ font-size: 1.5rem;
 }
 #ft1{
     top: 88vh;
-    left: 24%;
+    left: 22%;
 }
 #ft2{
     top: 88vh;
@@ -98,21 +99,25 @@ font-size: 1.5rem;
 }
 .final-link{
     position: absolute;
-    font-size: 1.3rem;
+    font-size: 1rem;
     top: 95.5vh;
-    left: 18%;
+    left: 22%;
     letter-spacing: 1pt;
     font-family: Anton;
 }
 #zmtg1{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: bold;
     font-family: roboto;
 }
 #zmtg2{
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 1pt;
     color: rgb(0, 46, 252);
+}
+#zmtg3{
+    font-size: 0.8rem;
 }
 
 /* image mapping with links */
