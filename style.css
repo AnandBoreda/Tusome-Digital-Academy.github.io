@@ -220,7 +220,7 @@ font-size: 1.5rem;
     top: 94vh;
     left: 79%; 
 }
-@media (min-width:1000px) and (max-width: 1399px) {   
+@media (min-width:992px) and (max-width: 1200px) {   
     .about{
         font-size: 0.8rem;
     } 
@@ -248,12 +248,34 @@ font-size: 1.5rem;
         letter-spacing: 0.6pt;
     }
 }
-@media (min-width:1399px) {    
+@media (min-width:1200px) {    
+    .about{
+        font-size: 0.8rem;
+    } 
     .products{
+        font-size: 0.8rem;
         letter-spacing: 1pt;
+        line-height:1.2 ;
+    }
+    #ft1,#ft2{
+        font-size: 0.9rem;
+    }
+    .final-link{
+        font-size: 0.8rem;
     }
     .zoom-meeting{
+        font-size: 0.5rem;
         letter-spacing: 0.5pt;
+    }
+    #zmtg1,#zmtg2,#zmtg3{
+        font-size: 0.6rem;
+        letter-spacing: 0;
+    }
+    #zmtg2{
+        font-size: 0.8rem;
+    }
+    .footer-links{
+        letter-spacing: 0.6pt;
     }
     .footer-links{
         letter-spacing: 0.6pt;
