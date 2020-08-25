@@ -233,9 +233,18 @@ font-size: 1.5rem;
         letter-spacing: 0.6pt;
     }
 }
-@media only screen and (max-width: 1000px) {    
+@media only screen and (max-width: 1000px) {   
+    html,body{
+        background-color: #f1f1f3;
+    }
+    #about1,#about2{
+        top: 26vh;
+    }
     .text-block{
-        top: 6vh;
+        top: 5vh;
+    }
+    img{
+        height: 95vh;
     }
     .t1{
         font-size: 1.6rem;
@@ -251,19 +260,48 @@ font-size: 1.5rem;
     }
     .products{
         font-size: 0.5rem;
-        line-height: 1.6;
+        line-height: 1.5;
+    }
+    #prod1,#prod2{
+        font-size: 1rem;
     }
     #products1,#products2{
-        top: 58vh;
+        top: 52.5vh;
+        text-align: center;
+    }
+    #products2{
+        left: 69.5%;
     }
     #ft1,#ft2{
         font-size: .6rem;
+        top: 84vh;
     }
     .zoom-meeting{
+        top: 78vh;
+        left: 52vw;
+        position: absolute;
+        width: 12%;
+        height: 3vh;
         font-size: 0.4rem;
+        line-height: 1;
+    }
+    #zmtg1{
+        width: 11vw;
+        margin: 0 0 3px 0;
+    }
+    #zmtg2{
+        margin: 0 10px ;
+        font-size: 0.8rem;
+        width: 8vw;
+    }
+    #zmtg3{
+        margin: 0 ;
+        display: none;
     }
     .final-link{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.5pt;
+        top: 91.5vh;
         left: 12%;
     }
 }
