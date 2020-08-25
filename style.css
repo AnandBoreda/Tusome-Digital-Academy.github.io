@@ -50,7 +50,6 @@ p>a:link,p>a:visited,p>a:hover,p>a:active {
     font-weight: 500;
     font-family: anton;
 }
-/* .about,.products,.footer-links,.final-link,.zoom-meeting{} */
 #about1{
     top: 28vh;
     left: 20.5%;
@@ -101,7 +100,7 @@ font-size: 1.5rem;
     position: absolute;
     font-size: 1rem;
     top: 95.5vh;
-    left: 22%;
+    left: 20%;
     letter-spacing: 1pt;
     font-family: Anton;
 }
@@ -203,7 +202,6 @@ font-size: 1.5rem;
     position: absolute;
     height: 5vh;
     width: 3%;    background-color: black;
-
     opacity: 0;
 }
 .facebook{
@@ -222,7 +220,35 @@ font-size: 1.5rem;
     top: 94vh;
     left: 79%; 
 }
-@media only screen and (min-width: 1000px) {    
+@media (min-width:1000px) and (max-width: 1399px) {   
+    .about{
+        font-size: 0.8rem;
+    } 
+    .products{
+        font-size: 0.8rem;
+        letter-spacing: 1pt;
+    }
+    #ft1,#ft2{
+        font-size: 0.9rem;
+    }
+    .final-link{
+        font-size: 0.8rem;
+    }
+    .zoom-meeting{
+        font-size: 0.5rem;
+    }
+    #zmtg1,#zmtg2,#zmtg3{
+        font-size: 0.6rem;
+        letter-spacing: 0;
+    }
+    #zmtg2{
+        font-size: 0.8rem;
+    }
+    .footer-links{
+        letter-spacing: 0.6pt;
+    }
+}
+@media (min-width:1399px) {    
     .products{
         letter-spacing: 1pt;
     }
@@ -233,6 +259,7 @@ font-size: 1.5rem;
         letter-spacing: 0.6pt;
     }
 }
+/* tablet */
 @media only screen and (max-width: 1000px) {   
     html,body{
         background-color: #f1f1f3;
