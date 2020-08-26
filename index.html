@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <!-- cdns used for jquery and fontawsome -->
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="/bootstrap/js/bootstrap.min.js"></script>
+      <script src="/javascripts/script.js"></script>
+
+
+
     <title>:. Tusome Digital Academy .:</title>
 </head>
 <body >
-    <div class="container-fluid p-0" id="main">
+    <div class="container-fluid p-0 desktop" id="main">
         <img src="./images/3d-des.jpg" alt="">
         <div class="text-block text-center">
             <h1 class=" t1 m-0 p-0">welcome to tusome digital group</h1>
@@ -77,11 +94,78 @@
         
         
     </div>
+    <div class="mobile-and-tablet m-0 p-0">
+      <div id="Header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+          <div class="container">
+            <span><a href="#" class="navbar-brand"> <h1 id="title"><img src="./images/logo.png" id="tusome-logo" alt="">Tusome</h1></a></span>
+            <span><button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+            </button></span>
+              <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item mx-auto"><a href="#about" class="nav-link active">Home</a></li>
+                  <li class="nav-item mx-auto"><a href="#skills" class="nav-link">Digital Academy</a></li>
+                  <li class="nav-item mx-auto"><a href="#experience" class="nav-link">Pulishers</a></li>
+                  <li class="nav-item mx-auto"><a href="#academics" class="nav-link">Digital Publishing Solutions</a></li>
+                  <!-- <li class="nav-item mx-auto"><a href="#contact" class="nav-link">Contact</a></li> -->
+                </ul>
+              </div>
+            </div>
+        </nav>
+      </div>
+      
+      <div class="container"> 
+        <div class="card" id="main-card">
+          <img src="./images/logo.png" alt="" class="tdigi mx-auto">
+          <div class="media"><div class="media-body">
+            <div class="container" id="num2">
+              <div class="row">
+                  <div class=" container mx-auto text-center">
+                    <h3 class="text-dark" id="welcome-msg">Tusome Digital Academy</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+          <div class="card-footer bg-white" >
+            <a href="https://github.com/AnandBoreda" target="_blank" title="Github"><i class="fa fa-phone fa-2x mx-2"></i></a>
+            <a href="https://www.instagram.com/nandu_says_lu/" target="_blank" title="Instagram"><i class="fa fa-whatsapp fa-2x mx-2"></i></a>
+            <a href="admin@tusome.digital" target="_blank" title="linked in"><i class="fa fa-envelope fa-2x mx-2"></i></a>
+            <a href="https://www.facebook.com/AnandBoreda" target="_blank" title="Facebook"><i class="fa fa-globe fa-2x mx-2"></i></a>
+          </div>
+        </div>
+
+        <div class="card" id="main-card" style="margin-top: 5rem;">
+          <img src="./images/logo.png" alt="" class="tdigi mx-auto">
+          <div class="media"><div class="media-body">
+            <div class="container" id="num2">
+              <div class="row">
+                  <div class=" container mx-auto text-center">
+                    <h3 class="text-dark" id="welcome-msg">Tusome Digital Academy</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+          <div class="card-footer bg-white" >
+            <a href="https://github.com/AnandBoreda" target="_blank" title="Github"><i class="fa fa-phone fa-2x mx-2"></i></a>
+            <a href="https://www.instagram.com/nandu_says_lu/" target="_blank" title="Instagram"><i class="fa fa-whatsapp fa-2x mx-2"></i></a>
+            <a href="admin@tusome.digital" target="_blank" title="linked in"><i class="fa fa-envelope fa-2x mx-2"></i></a>
+            <a href="https://www.facebook.com/AnandBoreda" target="_blank" title="Facebook"><i class="fa fa-globe fa-2x mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <script type="text/javascript">
     function add_chatinline(){
         var hccid=41727870;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);        
         }
         add_chatinline(); 
         </script>
+        
 </body>
 </html>

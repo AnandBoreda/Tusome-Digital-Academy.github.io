@@ -221,6 +221,12 @@ font-size: 1.5rem;
     left: 79%; 
 }
 @media (min-width:992px) and (max-width: 1200px) {   
+    .mobile-and-tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
     .about{
         font-size: 0.8rem;
     } 
@@ -248,7 +254,13 @@ font-size: 1.5rem;
         letter-spacing: 0.6pt;
     }
 }
-@media (min-width:1200px) {    
+@media (min-width:1200px) {  
+    .mobile-and-tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }  
     .about{
         font-size: 0.8rem;
     } 
@@ -282,7 +294,7 @@ font-size: 1.5rem;
     }
 }
 /* tablet */
-@media only screen and (max-width: 1000px) {   
+/* @media only screen and (max-width: 1000px) {   
     html,body{
         background-color: #f1f1f3;
     }
@@ -352,5 +364,71 @@ font-size: 1.5rem;
         letter-spacing: 0.5pt;
         top: 91.5vh;
         left: 12%;
+    }
+}
+ */
+
+@media (max-width: 1030px){
+    .mobile-and-tablet{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    html, body{
+        margin: 0%;
+        padding: 0;
+        /* background-color: #ccc; */
+    }
+    
+    #tusome-logo{
+        height: 4.5rem;
+        width: 4.5rem;
+        margin: 0 1rem;
+    }
+    #title{
+        font-family: russo one;
+        text-shadow: 0px 0px 20px black;
+    }
+    .navbar-toggler:focus {
+        outline: none !important;
+    }
+    .navbar-toggler{
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 20%;
+        margin-bottom: 10px;
+    }
+    .navbar{
+        box-shadow: 0px 0px 10px black;
+        padding-bottom: 0px;
+    }
+    .card{
+        border-radius: 20px;
+        height: auto;
+        box-shadow:  0px 0px 23px rgb(44, 44, 44);
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+    }
+    .card-footer{
+        align-self: center; 
+        }
+    .tdigi{
+        height: 10rem;
+        width: 10rem;
+        margin-top: -4rem;
+    }
+    #main-card{
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width:600px){
+    #title{
+        font-size: 2rem;
+    }
+    .tdigi{
+        height: 8rem;
+        width: 8rem;
+        margin-top: -3rem;
     }
 }
