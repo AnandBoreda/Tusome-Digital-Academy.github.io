@@ -13,7 +13,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
 }
 
 img{
@@ -378,7 +378,6 @@ font-size: 1.5rem;
  */
  
 @media (max-width: 1030px){
-    
     .mobile-and-tablet{
         display: block;
     }
@@ -386,11 +385,13 @@ font-size: 1.5rem;
         display: none;
     }
     html, body{
+        scroll-behavior: smooth;
         margin: 0%;
         padding: 0%;
         position: relative;
         font-family: anton;
     }
+    
     #tusome-logo{
         height: 4.5rem;
         width: 4.5rem;
@@ -516,6 +517,8 @@ font-size: 1.5rem;
 
 @media (max-width:600px){
     body{
+        scroll-behavior: smooth;
+
         background-color: #ccc !important;
         font-family: anton;
     }
