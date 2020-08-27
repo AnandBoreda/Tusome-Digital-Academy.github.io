@@ -19,7 +19,9 @@ html,body{
     margin: auto;
 }
 .access{
-    font-family: russo one;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 3rem;
 
 }
 .card{
@@ -50,6 +52,26 @@ html,body{
     }
     .access{
         font-size: 1.2rem;
+    }
+    #logo-img{
+        object-fit: cover;
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width:620px) and (max-width:992px) {
+    #logo-img{
+        object-fit: cover;
+        width:  6rem !important;
+        height: 6rem !important;
+    }
+    .access{
+        font-size: 1.5rem;
+    }
+    #title{
+        font-size: 1.2rem;
+        margin-top: 1rem;
     }
 }
 @media(min-width:1200px){
