@@ -10,10 +10,10 @@ html,body{
     font-size: 2rem;
     text-align:center;
     padding: 0.5rem 0;
-    background-color: #36dd81;
+    /* background-color: #36dd81; */
     font-family: russo one;
     color: white;
-    text-shadow: 0px 0px 10px #000;
+    text-shadow: 0px 0px 8px #000;
 }
 .center{
     margin: auto;
@@ -61,5 +61,11 @@ html,body{
     }
     .access{
         font-size: 1.2rem;
+    }
+    .one{
+        margin-left: 18rem;
+    }
+    .two{
+        margin-left: -18rem;
     }
 }
