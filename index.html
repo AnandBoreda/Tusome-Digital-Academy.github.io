@@ -225,12 +225,23 @@
         </div>
 
       </div>
-      <audio src="./audio/bg-music.mp3" autoplay></audio>
+      <!-- <audio src="./audio/bg-music.mp3" autoplay=""></audio> -->
+      <audio controls="controls"  loop="loop" id="bg-music">
+        <source src="./audio/bg-music.mp3" type="audio/mpeg">
+      </audio>
     <script type="text/javascript">
     function add_chatinline(){
         var hccid=41727870;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);        
         }
         add_chatinline(); 
+
+        // audio
+
+        var player = document.getElementById('bg-music');
+          setTimeout(function(){
+              player.play();
+              console.log("audio started");
+          }, 5000);
         </script>
         
 </body>
