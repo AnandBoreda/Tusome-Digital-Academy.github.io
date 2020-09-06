@@ -225,7 +225,6 @@
         </div>
 
       </div>
-      <!-- <audio src="./audio/bg-music.mp3" autoplay=""></audio> -->
       <audio controls="controls"  loop="loop" id="bg-music">
         <source src="./audio/bg-music.mp3" type="audio/mpeg">
       </audio>
@@ -236,12 +235,11 @@
         add_chatinline(); 
 
         // audio
+          const interval = setInterval(function() {
+            document.getElementById('bg-music').play();
+            console.log("started");
+          },500);
 
-        var player = document.getElementById('bg-music');
-          setTimeout(function(){
-              player.play();
-              console.log("audio started");
-          }, 5000);
         </script>
         
 </body>
